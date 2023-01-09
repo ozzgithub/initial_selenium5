@@ -39,6 +39,7 @@ Title = Amazon.com. Spend less. Smile more
         Thread.sleep(2000);
 
 
+
         if (driver.getCurrentUrl().equals("https://www.amazon.com/")) System.out.println("URL validation PASSED");
         else System.out.println("URL validation FAILED");
 
@@ -48,4 +49,7 @@ Title = Amazon.com. Spend less. Smile more
 
         driver.quit();
     }
+
+
+
 }
