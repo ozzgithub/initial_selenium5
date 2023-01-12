@@ -20,4 +20,13 @@ public class TechGlobalUtil {
         Waiter.pause(1);
 
     }
+
+
+    public static void clickOnCard(int cardNumber){
+        Driver.getDriver().findElement(By.id("card-" + cardNumber)).click();
+    }
+
+
+
+
 }
